@@ -1,4 +1,4 @@
-module xk6-rps
+module github.com/bandorko/xk6-rps
 
 go 1.21.1
 
