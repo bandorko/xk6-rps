@@ -2,7 +2,10 @@ module github.com/bandorko/xk6-rps
 
 go 1.21.1
 
-require go.k6.io/k6 v0.48.0
+require (
+	go.k6.io/k6 v0.48.0
+	golang.org/x/time v0.3.0
+)
 
 require (
 	github.com/cenkalti/backoff/v4 v4.2.1 // indirect
@@ -37,7 +40,6 @@ require (
 	golang.org/x/net v0.19.0 // indirect
 	golang.org/x/sys v0.15.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
-	golang.org/x/time v0.3.0 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20230711160842-782d3b101e98 // indirect
 	google.golang.org/genproto/googleapis/rpc v0.0.0-20230731193218-e0aa005b6bdf // indirect
 	google.golang.org/grpc v1.58.3 // indirect
